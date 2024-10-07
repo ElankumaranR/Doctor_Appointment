@@ -2,8 +2,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/login";
-
-const Home = () => <h2>Home Page</h2>;
+import Home from "./components/DoctorAppointmentHome";
+import Signup from "./components/Signup";
 const NotFound = () => <h2>404 Not Found</h2>;
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/signup" element={<Signup />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </div>
