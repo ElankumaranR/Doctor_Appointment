@@ -1,0 +1,43 @@
+/* src/components/DoctorList.css */
+.doctor-list-container {
+    margin-top: 3rem;
+}
+
+.doctor-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.doctor-list-table th,
+.doctor-list-table td {
+    padding: 1rem;
+    text-align: left;
+}
+
+.doctor-list-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.doctor-list-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.doctor-list-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.doctor-list-actions button {
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.doctor-list-actions button:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}

@@ -1,0 +1,89 @@
+.appointments-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+    color: #333;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #e2e6ea;
+    color: #000;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.list-group-item {
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.appointment-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.cancel-btn {
+    align-self: flex-start;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    background-color: #c82333;
+}
+.appointment-card {
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.appointment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cancel-btn {
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cancel-btn:hover {
+    background-color: #c82333;
+}
+
+.appointment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appointment-details p {
+    font-size: 1.1rem;
+}
+
+.badge {
+    padding: 0.5em 0.75em;
+}

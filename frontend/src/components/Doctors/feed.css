@@ -1,0 +1,48 @@
+/* DoctorFeedback.css */
+
+/* Card styles */
+.feedback-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.feedback-card .badge {
+    font-size: 14px;
+}
+
+/* Rating star component styling */
+.star-rating {
+    font-size: 18px;
+}
+
+.feedback-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Feedback and Appointment details section */
+.feedback-list p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.feedback-list p strong {
+    font-weight: bold;
+}
+
+.feedback-list .mt-3 {
+    margin-top: 15px;
+}
+
+.card-body {
+    padding: 15px;
+}

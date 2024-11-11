@@ -1,0 +1,26 @@
+.ADcontainer {
+    max-width: 600px; /* Limit the width of the form */
+    margin-top: 30px; /* Space above the form */
+}
+
+h3 {
+    font-weight: bold; /* Make the heading bold */
+    color: #007bff; /* Bootstrap primary color for the heading */
+}
+
+.form-control {
+    transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow effect on focus */
+}
+
+.btn-primary {
+    transition: background-color 0.3s; /* Smooth transition for button hover */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

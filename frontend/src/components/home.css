@@ -1,0 +1,25 @@
+
+.gradient-text {
+    background: linear-gradient(to right, #00f, #00c6ff); /* Replace with your desired gradient */
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+.home{
+    background-image: url('https://thumbs.dreamstime.com/z/doctor-using-digital-tablet-blue-background-global-technology-healthcare-medicine-concept-doctor-using-digital-124474633.jpg?ct=jpeg');
+background-repeat: no-repeat; /* Prevent the image from repeating */
+background-size: cover; /* Make sure the image covers the entire element */
+height: 400px;
+}
+.content{
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;}
+.cont_com{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    padding-left: 20px;
+
+}

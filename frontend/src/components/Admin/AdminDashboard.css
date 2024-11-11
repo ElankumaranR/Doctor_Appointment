@@ -1,0 +1,85 @@
+/* Body and container styling */
+body {
+    background-color: #f4f4f9;
+}
+
+.admin-dashboard {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Navbar styling */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+}
+
+/* Logout button styling */
+.logout-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+/* Table styling */
+.table {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.badge {
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
